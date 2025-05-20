@@ -1,4 +1,4 @@
-fetch('Table_Input.csv')
+fetch('table.csv')
   .then(res => res.text())
   .then(text => {
     const lines = text.trim().split('\n');
